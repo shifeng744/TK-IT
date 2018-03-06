@@ -1,0 +1,250 @@
+body{
+    font-family: "微软雅黑";
+}
+.main{
+    width: 1200px;
+    margin: auto;
+}
+.banner{
+    height: 500px;
+    width: 100%;
+    background-color: #1f1c27;
+    margin-top: 20px;
+
+}
+.banner-nav{
+    background-color: #2e2e2e;
+    width:100%;
+    height: 50px;
+    margin-top: -20px;
+}
+.banner-nav .banner-box{
+    width: 1200px;
+    margin: auto;
+}
+.banner-nav ul{
+    list-style: none;
+    width: 1200px;
+    height: 50px;
+}
+.banner-nav ul li{
+    display: inline-block;
+}
+.banner-nav>.banner-box>ul>li>a{
+    display:inline-block;
+    text-decoration: none;
+    padding:14px 66px;
+    background-color: #2e2e2e;
+    color: #ffecee;
+    font-size: 16px;
+
+}
+.banner-nav>.banner-box>ul>li>a:hover{
+    background-color: #fc5859;
+}
+.banner-nav .banner-box .newst2{
+    background-color: #fc5859;
+}
+.page{
+    width: 100%;
+    overflow: hidden;
+}
+.page .tjtk{
+    background:url(../images/sutdentshow2_03.png);
+    height: 380px;
+}
+.page .xydd{
+    background:url(../images/sutdentshow2_07.png);
+    height: 540px;
+    position: relative;
+}
+.page .xydd .xydd-box{
+    width:1045px;
+    height: 321px;
+
+    z-index: 200;
+    position: absolute;
+    left: 77px;
+    top: 128px;
+}
+.page .xydd .xydd-box .xydd-box-left{
+    width: 536px;
+    height: 280px;
+    border: 3px solid #8c4916;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.page .xydd .xydd-box .xydd-box-left p{
+    z-index: 20000;
+    background-color:rgba(0,0,0,.2);
+    position: absolute;
+    top:237px;
+    color: #fcfcfc;
+    height: 40px;
+    line-height: 40px;
+    width:530px;
+}
+.page .xydd .xydd-box .xydd-box-right{
+    width: 506px;
+    height: 280px;
+
+    overflow: hidden;
+    float: right;
+    padding-top: 37px;
+}
+.page .xydd .xydd-box .xydd-box-right p{
+    margin-right: 80px;
+    text-align: right;
+    line-height: 31px;
+}
+.page .xydd ul{
+    list-style: none;
+    width: 536px;
+
+    z-index: 200;
+    clear: both;
+    text-align: center;
+    padding: 8px 0;
+}
+.page .xydd ul .cur{
+    background-color: #fff;
+}
+.page .xydd ul li{
+    width: 40px;
+    height: 16px;
+    border: 2px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+.page .xydd ul li + li{
+    margin-left: 12px;
+}
+.page .jchd{
+    background:url(../images/sutdentshow2_09.png);
+    height: 540px;
+    position: relative;
+}
+.page .jchd .jchd-box{
+    width:1045px;
+    height: 321px;
+
+    z-index: 200;
+    position: absolute;
+    left: 77px;
+    top: 128px;
+}
+.page .jchd .jchd-box .jchd-box-left{
+    width: 536px;
+    height: 280px;
+    border: 3px solid #8c4916;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+.page .jchd .jchd-box .jchd-box-left p{
+    z-index: 20000;
+    background-color:rgba(0,0,0,.2);
+    position: absolute;
+    top:237px;
+    color: #fcfcfc;
+    height: 40px;
+    line-height: 40px;
+    width:530px;
+}
+.page .jchd .jchd-box .jchd-box-right{
+    width: 506px;
+    height: 280px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    padding-top: 37px;
+}
+.page .jchd .jchd-box .jchd-box-right p{
+    margin-left: 80px;
+    text-align: left;
+    line-height: 31px;
+
+}
+.page .jchd ul{
+    list-style: none;
+    width: 536px;
+    float: right;
+    z-index: 200;
+    clear: both;
+    text-align: center;
+    padding: 8px 0;
+}
+.page .jchd ul .cur{
+    background-color: #fff;
+}
+.page .jchd ul li{
+    width: 40px;
+    height: 16px;
+    border: 2px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+.page .jchd ul li + li{
+    margin-left: 12px;
+}
+.page .xmys{
+    background:url(../images/sutdentshow2_11.png);
+    height: 687px;
+}
+.page .jytk{
+    background:url(../images/sutdentshow2_14.png);
+    height: 752px;
+}
+.page .newst3{
+    margin-top:90px ;
+}
+.page .title{
+    padding: 1px 0 1px 0;
+    background-color: #f6f6f6;
+    position: relative;
+    text-align: center;
+}
+.page .title h1{
+    font-size:32px;
+    line-height: 58px;
+    text-align: center;
+    margin: 10px 0 0 0 ;
+    font-weight: bold;
+}
+.page .title .line{
+    width: 100px;
+    border: 2px solid #ffa500;
+    position: relative;
+    top: 21px;
+    display: block;
+    margin:0 auto;
+}
+.page .title .line2{
+    width: 100%;
+    border: 1px solid #bdbdbd;
+}
+.page .page-banner{
+    width: 1200px;
+    margin: auto;
+}
+.page-box{
+    width: 350px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.page .page-banner .page-box .page-box-1{
+    width: 350px;
+    height: 216px;
+    background-color:#888888 ;
+}
+.page .page-banner .page-box{
+    float: left;
+}
+.page .page-banner .page-box p{
+    text-align: center;
+    line-height: 45px;
+}

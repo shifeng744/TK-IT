@@ -1,0 +1,36 @@
+@charset "utf-8"; /* 设置编码  css代码的编码 */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+html{color:#000;overflow-y:scroll;overflow:-moz-scrollbars-vertical;}
+body,button,input,select,textarea{font-size:62.5%;font-family:'Microsoft Yahei';}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none}
+legend{color:#000;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+fieldset,img{border:0;vertical-align:middle;}
+button,input,select,textarea{font-size:100%;outline:0px;}
+table{border-collapse:collapse;border-spacing:0;}
+img{-ms-interpolation-mode:bicubic;}
+textarea{resize:vertical;}
+label,button{cursor:pointer;}
+body,form{position:relative;}
+td{text-align:left;}
+p{word-wrap:break-word;}
+
+/* reset html5  tag*/
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,summary, time, mark, audio, video { display: block;margin: 0;padding: 0;}
+mark { background: #ff0; }
+
+/* defined   reset */
+#header,#content,#footer{margin-left:auto;margin-right:auto;}
+.left{float:left}
+.right{float:right}
+.overflow{overflow:hidden}
+.hide{display:none}
+.block{display:block}
+.inline{display:inline}
+.clear{clear:both;height:0;line-height:0;font-size:0;visibility:hidden;overflow:hidden}

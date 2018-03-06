@@ -1,0 +1,276 @@
+/*首页样式*/
+.header{width: 100%;text-align: center;margin: auto;min-width: 1200px;}
+.header .header_top{width: 100%;height:32px;line-height:32px;background-color:#f6f6f6;overflow: hidden; }
+.header .header_top header{width: 1200px;height: 32px;line-height: 32px;margin: auto;text-align: left;}
+.header .header_top .header_tel span{font-size: 16px;}
+.header .header_top .header_tel img{margin-top: -6px;}
+.header .header_top .header_wb{margin-right: 50px;margin-left: 30px;}
+.header .header_top .header_wb .xlwb{display: inline-block;margin-right: 20px;height: 32px;line-height: 32px;}
+.header .header_top .header_wb .xlwb img{margin-top: -3px;}
+.header .header_top .header_wb .txwb{text-decoration: none;}
+.header .header_top .header_wb .txwb img{margin-top: -3px;}
+.header .header_top .lx{margin-top: 8px;}
+.header .header_top .lx li{float: left;display: inline-block;width: 80px;height: 16px;line-height: 16px; text-align: center;}
+.header .header_top .lx li a{color: #999;}
+.border-left{border-left: 1px solid #999;}
+.header .index_nav{width: 1200px;height:50px;margin:20px auto;text-align: left;display: flex;align-items:center;  }
+.header .index_nav .logo{width: 160px;height: 44px;box-sizing:content-box;border-right: 4px solid #999;float: left}
+.header .index_nav .location{float:left;width:100px;height:44px;line-height:44px;text-align: left;display: inline-block;text-decoration: none;}
+.header .index_nav .location img{margin: 0 10px 0 10px;}
+.header .index_nav .location span{font-family: "Microsoft Yahei";color: #de0d20;}
+.header .index_nav .index_nav_c {float: left;height: 32px;line-height: 32px;margin-bottom: 0px;}
+.header .index_nav .index_nav_c li{float: left;width: 120px; height: 32px;line-height: 32px;text-align: center;}
+.header .index_nav .index_nav_c li a{text-decoration: none;color: #737373;font-family:Microsoft Yahei; }
+.header .index_nav .index_nav_c li a:hover{color: #de0d20;}
+.header .index_nav .index_nav_c .nav_current{color: #de0d20;}
+
+.banner{width: 100%;max-width:1920px;height: 450px;background-color: #00b4ef;text-align: center;overflow: hidden;margin: auto;min-width: 1200px;}
+.banner .index_bk{width: 100%;margin-bottom: 0px;}
+.banner .index_bk li{width: 100%;height:450px;}
+.banner .index_bk li img{width: 100%;height:450px;}
+.banner .index_menu{width:1200px;height:450px;margin:0 auto;overflow: hidden;position: relative;bottom:450px;z-index: 1;}
+.banner .index_menu a{text-decoration: none;}
+.banner .index_menu ul{width:240px;height:450px;background-color:rgba(155,114,23,0.3);margin-bottom: 0px;text-align: center;}
+.banner .index_menu ul li{width:190px;height:64px;line-height:64px;border-top: 1px solid #999;margin-left: 25px;box-sizing: border-box;}
+.banner .index_menu ul li a{color: #fff;text-decoration: none;}
+.banner .index_menu .index_menu_course{color: #fff;display: inline-block;width: 80px;text-align: left;margin-left: 10px;}
+.banner .index_menu ul li span{color: #fff;margin-left: 20px;}
+.banner .index_menu .index_course_01{width: 960px;height: 450px;position: relative;bottom:64px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_01 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_01 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_01 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_01 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_01 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_02{width: 960px;height: 450px;position: relative;bottom:129px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_02 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_02 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_02 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_02 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_02 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_03{width: 960px;height: 450px;position: relative;bottom:193px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_03 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_03 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_03 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_03 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_03 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_04{width: 960px;height: 450px;position: relative;bottom:257px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_04 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_04 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_04 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_04 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_04 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_05{width: 960px;height: 450px;position: relative;bottom:321px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_05 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_05 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_05 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_05 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_05 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_06{width: 960px;height: 450px;position: relative;bottom:385px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_06 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_06 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_06 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_06 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_06 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_07{width: 960px;height: 450px;position: relative;bottom:449px;left:215px;z-index: 2;background: url("../images/index_wlkc_bg.jpg");background-size: cover;}
+.banner .index_menu .index_course_07 .index_course_top{width: 960px;height:225px;border-bottom: 1px solid #999;overflow: hidden;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_07 .index_course_top .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_07 .index_course_top .index_course_right .table .table2 a{color: #727272;}
+.banner .index_menu .index_course_07 .index_course_bottom{width: 960px;height:225px;overflow: hidden;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_left{width:228px;height:225px;border-right: 1px solid #999;float: left;text-align: center; }
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_left img{width: 170px;height: 110px;margin: auto;margin-top: 15px;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_left p{height: 32px;line-height: 32px;color: #fff;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_right{width:732px;height:225px;float: left;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_right .table{width:500px;height:210px;margin-left: 15px;margin-top: 15px;margin-bottom: 0;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_right .table .table1{height: 70px;width:70px;text-align: center;border: none;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_right .table .table1 a{color: #007ec8;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_right .table .table2{border: none;}
+.banner .index_menu .index_course_07 .index_course_bottom .index_course_right .table .table2 a{color: #727272;}
+
+.index_group{width:1200px;height:100px;margin: 30px auto;overflow: hidden;min-width: 1200px;}
+.index_group li{width:240px;height: 100px; border-right: 1px solid #999;float: left;}
+.index_group li a{width:240px;height: 100px;float: left;display: flex;align-items: center;color: #505050;text-decoration: none;}
+.index_group li img{display: inline-block;margin-left: 20px;margin-right:10px;}
+.index_group div{text-align: center;display: inline-block;}
+.index_group div h3{font-size: 20px;font-family: 'Microsoft Yahei';color: #505050;line-height: 20px;margin-top:10px;}
+.index_group div h3:hover{color: #0075c1;}
+.index_group div p{font-size: 12px;font-family: 'Microsoft Yahei';line-height: 12px;color: #505050;}
+
+.course_system{width: 100%;text-align: center;background-color: #f6f6f6;min-width: 1200px;}
+.course_system .course_system_c{width: 1200px;margin: auto;background-color:#f6f6f6;overflow: hidden; padding-top: 20px;}
+.course_system .course_top{width:1200px;height:64px;display: flex;align-items: center;}
+.course_system .course_top .course_ch{display:inline-block;height:32px;line-height: 32px;font-size: 24px;border-right: 3px solid #999;padding: 0 10px 0 24px;}
+.course_system .course_top .course_en{display:inline-block;height:32px;line-height: 32px;font-size: 16px;padding: 0 0 0 10px; }
+.course_system .course_top a{width:175px;height: 38px;line-height:38px;display: inline-block;float: right;margin-left: 710px;background-color: #4bd8e5;border-radius: 19px;text-decoration: none;color: #fff;}
+.course_system .course_content{display:inline-block;width: 1200px;margin: 10px auto;}
+.course_system .course_content li{float: left;width:234px;height: 234px;margin: 0 0 6px 7px;}
+.course_system .course_content li a{display:inline-block;width:234px;height: 234px;background-color: #4bd8e5;text-decoration: none;color: #fff;text-align: center;}
+.course_system .course_content li a img{display:inline-block;margin:38px 0 0 0;max-width: 88px;max-height: 102px;}
+.course_system .course_content li a span{display:inline-block;line-height: 32px;margin-top: 10px;}
+
+.course_info{width: 100%;text-align: center;background-color: #fff;min-width: 1200px;}
+.course_info .course_info_c{width:1200px;height:600px;background-color:#51d160;margin:20px auto;overflow: hidden;text-align: center;padding-top: 20px;}
+.course_info .course_info_top{width:1200px;height:64px;display: flex;align-items: center;}
+.course_info .course_info_top .course_info_ch{display:inline-block;height:32px;line-height: 32px;font-size: 24px;border-right: 3px solid #999;padding: 0 10px 0 32px;}
+.course_info .course_info_top .course_info_en{display:inline-block;height:32px;line-height: 32px;font-size: 16px;padding: 0 0 0 10px; }
+.course_info .course_info_top a{width:175px;height: 38px;line-height:38px;display: inline-block;float: right;margin-left: 660px;background-color: #027f5c;border-radius: 19px;text-decoration: none;color: #fff;}
+.course_info .course_img img{margin:14px auto;}
+.course_info .txtMarquee-top{width:554px;float:left;margin-left: 30px;height: 266px;}
+.course_info .txtMarquee-top table{width: 554px;margin: auto;}
+.course_info .txtMarquee-top table th{text-align: center;color: #fff;height: 40px;}
+.course_info .txtMarquee-top ul{width: 554px;height:224px;margin: auto;overflow: hidden;}
+.course_info .txtMarquee-top ul li{height: 36px;line-height: 36px;}
+.course_info .txtMarquee-top ul li a{color: #fff;text-decoration: none;}
+.course_info .txtMarquee-top .course1{width:100px;display: inline-block;}
+.course_info .txtMarquee-top .course2{width:275px;display: inline-block;}
+.course_info .txtMarquee-top .course3{width:60px;display: inline-block;}
+.course_info .txtMarquee-top .course4{width:115px;display: inline-block;}
+
+.index_gy{width:100%;text-align: center;background-color: #f6f6f6;height: 700px;min-width: 1200px;}
+.index_gy .index_gy_c{width: 1200px;margin: auto;text-align: center;padding-top: 20px;}
+.index_gy .index_gy_top{width:1200px;height:64px;display: flex;align-items: center;}
+.index_gy .index_gy_top .index_gy_ch{display:inline-block;height:32px;line-height: 32px;font-size: 24px;border-right: 3px solid #999;padding: 0 10px 0 32px;}
+.index_gy .index_gy_top .index_gy_en{display:inline-block;height:32px;line-height: 32px;font-size: 16px;padding: 0 0 0 10px; }
+.index_gy .index_gy_top a{width:175px;height: 38px;line-height:38px;display: inline-block;float: right;margin-left: 660px;background-color: #f1a70d;border-radius: 19px;text-decoration: none;color: #fff;}
+.index_gy .index_gy_bottom{width:1200px;height:554px;margin: 10px auto;}
+.index_gy .index_gy_bottom li{width:220px;height: 266px;float: left;overflow: hidden;margin: 0 0 25px 25px;}
+.index_gy .index_gy_bottom li a{width:220px;height: 266px;display: inline-block;text-align: center;text-decoration: none;}
+.index_gy .index_gy_bottom li a img{width: 100%;height: 100%;}
+.index_gy .index_gy_bottom li a span{width:110px;height: 32px;line-height:32px;display: inline-block;background-color: #0a1f34;color: #fff;position: relative;top: -32px;z-index: 1;}
+.index_gy .index_gy_bottom li a div{width: 220px;height: 266px;background-color: rgba(0,0,0,0.5);position: relative;top:-298px;z-index: 2;text-align: left;color: #fff;display: none;}
+.index_gy .index_gy_bottom li a div dd{padding-left: 15px;padding-top: 15px;}
+.index_gy .index_gy_bottom li a div dt{padding-left: 15px;font-weight: lighter;}
+.index_gy .index_gy_bottom li a div p{padding:0 25px 0 15px;}
+
+.index_env{width: 100%;text-align: center;background-color: #fff;min-width: 1200px;}
+.index_env .index_env_c{width:1200px;height:360px;background-color: #61bbf9;margin:20px auto;padding-top: 20px;}
+.index_env .index_env_top{width:1200px;height:64px;display: flex;align-items: center;}
+.index_env .index_env_top .index_env_ch{display:inline-block;height:32px;line-height: 32px;font-size: 24px;border-right: 3px solid #999;padding: 0 10px 0 32px;}
+.index_env .index_env_top .index_env_en{display:inline-block;height:32px;line-height: 32px;font-size: 16px;padding: 0 0 0 10px; }
+.index_env .index_env_top a{width:175px;height: 38px;line-height:38px;display: inline-block;float: right;margin-left: 660px;background-color: #198fe0;border-radius: 19px;text-decoration: none;color: #fff;}
+.index_env .env_bg{width: 1182px;height:226px;margin: auto;background-color: #fff;border-radius: 10px;overflow: hidden;}
+.index_env .env_bg ul li{width: 228px;height: 208px;float: left;margin: 9px 3px 5px 5px;}
+.index_env .env_bg ul li img{width: 100%;height: 100%;}
+
+footer{width: 100%;height:530px;background-color: #29333d;text-align: center;min-width: 1200px;}
+.footer{width:1200px;height:530px;margin:0 auto;padding-top: 30px; color: #888;overflow: hidden;}
+.footer h4{color: #fff;}
+.footer a{text-decoration: none;color: #888;}
+.footer .footer_top{width:1200px;height:266px;border-bottom: 1px solid #8d8b8b;overflow: hidden;}
+.footer .footer_top .footer_about{float: left;width: 80px;text-align: center;}
+.footer .footer_top .footer_about li{height: 32px;line-height: 32px;}
+.footer .footer_contact{float: left;height: 32px;line-height: 32px;width: 136px;margin-left: 100px;}
+.footer .footer_top .footer_focus{width: 320px;float: left;text-align: left;margin-left: 115px;}
+.footer .footer_top .footer_focus h4{width: 300px;display: inline-block;text-align: left;text-indent: 32px;height: 32px;line-height: 32px;}
+.footer .footer_top .footer_focus a{width: 68px;height: 68px;display: inline-block;margin-left: 32px;}
+.footer .footer_top .footer_kefu{width: 360px;float: right;text-align: left;}
+.footer .footer_kefu span{height: 60px;line-height:60px;display: inline-block;font-size: 18px;}
+.footer .footer_kefu span img{width: 38px;height: 38px;display: inline-block;}
+.footer .footer_kefu ul {width: 360px;}
+.footer .footer_kefu ul li{width: 360px;height: 32px;line-height: 32px;}
+.footer .footer_flink{width: 1200px;height:124px;border-bottom: 1px solid #8d8b8b;text-align: left; }
+.footer .footer_flink h4{height: 40px;line-height: 40px;margin: 10px 0 0 0;}
+.footer .footer_flink a{display: inline-block;height: 32px;line-height: 32px;margin: 0 0 0 0;}
+.footer .footer_copy{height: 32px;line-height: 32px;margin: 10px 0 0 0;}
+
+/*师资队伍*/
+.teacher-banner{width: 100%;max-width:1920px;height: 450px;background-color: #ccc;margin: 0 auto;}
+.teacher-menu{width:100%;max-width: 1920px;height: 276px;background-color: #53338d;margin: 0 auto;}
+.teacher-menu ul{width:1200px;height:276px;margin: 0 auto;}
+.teacher-menu ul li{float: left;width: 240px;height: 276px;border: 1px dashed #fff;border-radius: 10px;}
